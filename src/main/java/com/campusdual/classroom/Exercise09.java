@@ -14,6 +14,7 @@ public class Exercise09 {
     public static void doWhileLoop(int num) {
         int contador = 0;
         do {
+            
             System.out.println("Entra con valor: " + contador + ", sale con valor: " + (contador + 1));
             contador++;
         } while (contador < num);
